@@ -4,6 +4,6 @@ import app from "./src/app.js"
 
 
 
-app.listen(2000, () => {
+app.listen(4000, () => {
     console.log('Server is running on http://localhost:3000')
 })
