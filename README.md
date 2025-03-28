@@ -1,11 +1,7 @@
-# AI-code-review-system
+AI Code Review System
+🔗 Live Demo:  https://ai-code-review-system-frontend.onrender.com
 
-
-
-Live link of project - > https://ai-code-review-system-frontend.onrender.com
-
-NOTE: i have hosted the backend on free hosting services , so its may take time to give answer (might take 1 min).
-
+⚠ Note: The backend is hosted on a free service, so responses may take some time (up to a minute).
 
 
 Key Contributions and Achievements:
