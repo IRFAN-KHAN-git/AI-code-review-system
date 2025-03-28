@@ -19,7 +19,7 @@ An intelligent **AI-powered code review platform** that analyzes your code, dete
 
 ## 🛠 Tech Stack  
 ### **Frontend:**  
-- **React.js** – Modern UI & interactive components  
+- **React.js** – Modern UI & interactive components  .
 
 ### **Backend:**  
 - **Node.js & Express.js** – Handles API requests & business logic  
