@@ -1,22 +1,22 @@
-AI Code Review System
+🚀 AI Code Review System
 
 
-🔗 Live Demo:  https://ai-code-review-system-frontend.onrender.com
+🔗 Live Demo: AI Code Review System
 
 ⚠ Note: The backend is hosted on a free service, so responses may take some time (up to a minute).
 
+✨ Key Contributions and Achievements
+🛠 Full-Stack Development – Built a complete AI-powered code review platform using React.js (frontend) and Node.js (backend).
 
-Key Contributions and Achievements:
+🤖 AI-Powered Reviews – Integrated Google Gemini API to analyze code, detect errors, optimize performance, and improve maintainability.
 
-– Developed a full-stack AI-driven code review platform using React (frontend) and Nodejs (backend) to analyze and
-optimize developer code.
+🔄 Cross-Origin Support – Implemented CORS to enable secure communication between the frontend and backend.
 
+🛠 Tech Stack
+Frontend: React.js
 
-– Integrated Google Gemini API to provide expert-level code reviews, detecting errors, optimizing performance, and
-improving maintainability
+Backend: Node.js, Express.js
 
+AI Integration: Google Gemini API
 
-– Used CORS to enable secure cross-origin requests between the React frontend and Node.js backend.
-
-Tech Stack:
-– React.js, Node.js, Express.js, Google Gemini API, CORS
+Security: CORS
