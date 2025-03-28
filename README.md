@@ -1,24 +1,37 @@
-🚀 AI Code Review System
+# 🚀 AI Code Review System – Smarter Code Reviews with AI  
 
+An intelligent **AI-powered code review platform** that analyzes your code, detects errors, suggests optimizations, and enhances maintainability – all in seconds!  
 
-🔗 Live Demo: https://ai-code-review-system-frontend.onrender.com
+🔗 **Live Demo:** [AI Code Review System](https://ai-code-review-system-frontend.onrender.com)  
 
-⚠ Note: The backend is hosted on a free service, so responses may take some time (up to a minute).
+⚠ **Note:** The backend is hosted on a free service, so responses may take some time (up to a minute).  
 
-✨ Key Contributions and Achievements
+---
 
-🛠 Full-Stack Development – Built a complete AI-powered code review platform using React.js (frontend) and Node.js (backend).
+## ✨ Key Features & Achievements  
+🛠 **Full-Stack Development** – Built with **React.js** (frontend) & **Node.js** (backend).  
+🤖 **AI-Powered Reviews** – Uses **Google Gemini API** to analyze code quality.  
+📈 **Performance Optimization** – Detects errors, suggests improvements, and enhances maintainability.  
+🔄 **Cross-Origin Support** – CORS enabled for secure frontend-backend communication.  
+⚡ **Fast & User-Friendly** – Simple interface for seamless code reviews.  
 
-🤖 AI-Powered Reviews – Integrated Google Gemini API to analyze code, detect errors, optimize performance, and improve maintainability.
+---
 
-🔄 Cross-Origin Support – Implemented CORS to enable secure communication between the frontend and backend.
+## 🛠 Tech Stack  
+### **Frontend:**  
+- **React.js** – Modern UI & interactive components  
 
-🛠 Tech Stack
+### **Backend:**  
+- **Node.js & Express.js** – Handles API requests & business logic  
+- **CORS** – Ensures secure data exchange  
 
-Frontend: React.js
+### **AI Integration:**  
+- **Google Gemini API** – AI-driven code analysis  
 
-Backend: Node.js, Express.js
+---
 
-AI Integration: Google Gemini API
-
-Security: CORS
+## 🔧 Installation & Setup  
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/your-username/AI-Code-Review-System.git
+   cd AI-Code-Review-System
