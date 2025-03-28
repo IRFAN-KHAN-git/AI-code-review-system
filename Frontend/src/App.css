@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,6 +9,7 @@ body,
 #root {
   height: 100%;
   width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 main {
@@ -16,19 +17,27 @@ main {
   width: 100%;
   padding: 1.5rem;
   display: flex;
+  flex-direction: column;
   gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+  }
 }
 
 main .left,
 main .right {
-  height: 100%;
   flex-basis: 50%;
   border-radius: 0.7rem;
+  max-width: 100%; /* Prevents stretching beyond the screen */
 }
 
 main .left {
   background-color: #000000;
   position: relative;
+  min-height: 50vh; /* Adjust for smaller screens */
 }
 
 .left .code,
@@ -47,17 +56,39 @@ main .left .review {
   right: 1rem;
   background-color: rgb(219, 219, 255);
   color: #000000;
-  padding: 0.5rem 2rem;
+  padding: 0.4rem 1.2rem;
   font-weight: 500;
   cursor: pointer;
   user-select: none;
   border-radius: 0.7rem;
+  transition: background-color 0.3s ease;
 }
 
+main .left .review:hover {
+  background-color: rgb(180, 180, 255);
+}
 
 main .right {
   background-color: #343434;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   overflow: auto;
+  min-height: 50vh; /* Ensures it doesn't overflow on mobile */
+}
+
+@media (max-width: 768px) {
+  main .right {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  main .left .review {
+    width: auto;
+    bottom: 0.5rem;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
 }
