@@ -4,6 +4,8 @@
 
 Live link of project - > https://ai-code-review-system-frontend.onrender.com
 
+NOTE: i have hosted the backend on free hosting services , so its may take time to give answer (might take 1 min).
+
 
 
 Key Contributions and Achievements:
