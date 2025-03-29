@@ -17,6 +17,9 @@ An intelligent **AI-powered code review platform** that analyzes your code, dete
 
 ---
 
+## 📷 Screenshot
+![Password Generator Preview](screenshot.png)
+
 ## 🛠 Tech Stack  
 ### **Frontend:**  
 - **React.js** – Modern UI & interactive components  .
