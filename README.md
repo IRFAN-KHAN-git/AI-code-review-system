@@ -36,5 +36,5 @@ An intelligent **AI-powered code review platform** that analyzes your code, dete
 ## 🔧 Installation & Setup  
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/your-username/AI-Code-Review-System.git
+   git clone https://github.com/IRFAN-KHAN-git/AI-Code-Review-System.git
    cd AI-Code-Review-System
